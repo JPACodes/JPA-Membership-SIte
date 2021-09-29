@@ -25,7 +25,7 @@
     .success{display:flex;flex-direction:column;margin-top:150px;margin-bottom:200px;width:100%}
     .successtitle{font-size:28px;margin-bottom:25px}
     .successtitle span{color:#3419bd}
-    .successtop{text-align:left;display:flex;justify-content:space-between;height:450px;background:url(/images/safe.png);background-position:center;background-repeat:no-repeat;background-size:contain;margin-bottom:25px}
+    .successtop{text-align:center;display:flex;justify-content:space-between;height:450px;background:url(/images/safe.png);background-position:center;background-repeat:no-repeat;background-size:contain;margin-bottom:25px}
     .successlist{display:flex;flex-wrap:wrap;justify-content:center}
     .successlist div{width:calc(30% - 90px);background:radial-gradient(50% 50% at 50% 50%,#50465d 0%,#372f40 100%);padding:30px;margin:15px;border-radius:15px;display:flex;flex-direction:column;transition:transform .4s}
     .successlist div:hover{transform:translateY(-10px)}
@@ -56,3 +56,4 @@ header{padding-bottom:0!important;margin-bottom:-10px}
 @media only screen and (max-width:550px){.successtop{height:350px}}
 @media only screen and (max-width:450px){.successtop{height:250px}.popup{height:500px}}
 @media only screen and (max-width:300px){.popup h1{font-size:1.2em}}img{max-width:100%}.popup{width:600px;max-width:calc(90% - 60px);height:400px;max-height:calc(90% - 60px);position:fixed;top:50%;left:50%;transform:translateY(-50%) translateX(-50%);background:#3b3243;padding:30px;border-radius:40px;z-index:1000;display:flex;flex-direction:column;justify-content:space-between;line-height:1.3em;font-size:1.1em}.popup *{font-weight:700}.blackbg{background:rgba(0,0,0,.3);position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:999}.popup span.close{position:absolute;cursor:pointer;font-size:1.7em;top:10px;right:20px;transition:color .4s}.popup span.close:hover{color:#999}.popup h1{line-height:1.1em}.popup>div>input{margin:5px 0}.popup>div>p{position:relative;text-align:left;margin-top:11px;margin-bottom:4px;margin-left:6%}.asterisk{color:#372f40;margin-left:4px}.subscribebutton{font-size:1em}.signup>div{display:flex;align-items:center;justify-content:center;flex-direction:column;margin:60px 0}.enterbutton{background:#372f40;padding:20px 30px;border-radius:30px;transition:background .4s;font-weight:700;font-size:1.2em;width:400px;margin-top:60px;margin-bottom:30px;max-width:80vw}
+
