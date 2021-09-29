@@ -12,7 +12,7 @@
 .brands{margin-top:100px;display:flex;align-items:center;flex-wrap:wrap;justify-content:center;z-index:1;width: 100%;height: 100%;position:relative;}
 .brands>img{margin:20px;min-height:75px}
 .homepageicon{margin-bottom:25px;width:85px}
-.homepagetitletext{font-size:28px;margin-bottom:75px;font-weight:500;max-width:95vw}
+.homepagetitletext{font-size:28px;margin-bottom:25px;font-weight:500;max-width:95vw}
 .featurecontainer{display:grid;grid-template-columns:32% 32% 32%;column-gap:2%;width:1400px;max-width:90vw;perspective:1000px}
 .featurecontainer>div{display:flex;align-items:flex-start;padding:25px;box-sizing:border-box;border-radius:22px;height:max-content;transition:.2s all ease 0s}
 .featurecontainer>div:hover{transform:translateY(-15px)!important;background:#372f40;box-shadow:#372f40 0 0 30px}
@@ -45,9 +45,9 @@
     .contact>div>div>div>input{outline:none;border:none;background:#31273b;padding:20px;font-size:15px;color:#fff;border-radius:10px;width:450px;max-width:100%;text-align:left}.contact>div>div>div>textarea{outline:none;border:none;resize:none;background:#31273b;padding:20px;font-size:15px;color:#fff;border-radius:10px;width:550px;max-width:calc(100% - 40px);text-align:left}.contact>div>div>div>span{cursor:pointer;background:#372f40;padding:20px 40px;text-transform:uppercase;border-radius:30px;font-weight:500;margin-top:35px;-webkit-align-self:flex-end;-ms-flex-item-align:end;align-self:flex-end;-webkit-transition:.3s all ease-out 0s;transition:.3s all ease-out 0s}
 @media only screen and (max-width:1300px){.contact>div>div{flex-direction:column;align-items:center}.contact>div>div>div{width:100%}.contact div>div>div:nth-child(1){margin-right:0}.contact>div>div>div>input{width:calc(100% - 40px);margin-bottom:15px}.contact>div>div>div>span{margin-bottom:0}}
 @media only screen and (max-width:800px){.successtop{background:url(/images/saferesponsive.png);background-position:center;background-repeat:no-repeat;background-size:contain}.homepagebuttons{margin-bottom:0}
-.brands{margin-top:10}
+.brands{margin-top:100}
 .videoframe{margin:0}
-.features{margin-top:80px}
+.features{margin-top:25px}
 .success{margin-top:80px;margin-bottom:80px}
 .contact{margin-top:40px;margin-bottom:40px}
 header{padding-bottom:0!important;margin-bottom:-10px}
