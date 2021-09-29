@@ -1,7 +1,7 @@
 *{margin:0;padding:0;border:0;user-select:none;text-align:center;scroll-behavior:smooth;font-family:sans-serif;outline:none;color:#ddd;text-decoration:none;font-family:montserrat,sans-serif}
 header .onlyScroll{display:none}
 header.scrolling .headerbutton{display:none}header.scrolling .onlyScroll{display:block}
-body{overflow-x:hidden;max-width:100%;position:relative;background:#231b2b;display:flex;flex-direction:column;display:flex;flex-direction:column;min-height:100vh}
+body{overflow-x:hidden;max-width:100%;position:relative;background:#592F60;display:flex;flex-direction:column;display:flex;flex-direction:column;min-height:100vh}
 button:disabled{cursor:not-allowed!important}
 .hidden{display:none!important}
 ::-webkit-scrollbar{width:6px}
@@ -14,6 +14,6 @@ header>div.small{display:none}
 header div a{color:#84719a;font-weight:700;transition:color .4s;position:relative}
 header div a:hover{color:#c8ace7}
 header div a::after{opacity:0;content:"";width:75%;position:absolute;bottom:-3px;height:0;left:50%;border-bottom:2px solid #3419bd;transition:width .3s ease;transform:translateX(-50%);transition:opacity .4s ease}
-header div a:hover::after,header div a.selected::after{opacity:1}header a.headerbutton,.subscribebutton{color:#3419bd;border:1px solid #3419bd;padding:10px 20px;border-radius:20px;transition-duration:.4s;background:0 0;cursor:pointer}header a.headerbutton:hover,.subscribebutton:hover{color:rgba(236,117,120,.6)}
-header img{height:45px;width:45px}header.footer{background:#372f40;padding:0 20vw 1%}header span{display:flex}header span a{display:flex;padding:0 5px;transition:transform .4s}header span a:hover{transform:scale(1.1)}header.footer *{color:#ddd!important}.footertransition{height:20px;width:100%;background:linear-gradient(0deg,#372f40 0%,#231B2B 100%)}
-.content{flex-grow:1;flex-shrink:1;width:100%;left:0}input{background:#84719a;font-size:1em;padding:10px 20px;width:80%;border-radius:21px;text-align:left;transition:filter .4s}input:focus{filter:brightness(80%)}input::placeholder{color:#bbb}
+header div a:hover::after,header div a.selected::after{opacity:1}header a.headerbutton,.subscribebutton{color:#3419bd;border:1px solid #3419bd;padding:10px 20px;border-radius:20px;transition-duration:.4s;background:0 0;cursor:pointer}header a.headerbutton:hover,.subscribebutton:hover{color:#372f40}
+header img{height:45px;width:45px}header.footer{background:#372f40;padding:0 20vw 1%}header span{display:flex}header span a{display:flex;padding:0 5px;transition:transform .4s}header span a:hover{transform:scale(1.1)}header.footer *{color:#ddd!important}.footertransition{height:20px;width:100%;background:linear-gradient(0deg,#592F60 0%,#231B2B 100%)}
+.content{flex-grow:1;flex-shrink:1;width:100%;left:0}input{background:#372f40;font-size:1em;padding:10px 20px;width:80%;border-radius:21px;text-align:left;transition:filter .4s}input:focus{filter:brightness(80%)}input::placeholder{color:#bbb}

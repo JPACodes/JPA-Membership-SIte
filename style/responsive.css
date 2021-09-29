@@ -1,1 +1,19 @@
-@media all and (max-width:1285px){header{width:80vw;padding-left:10vw!important;padding-right:10vw!important}}@media all and (max-width:970px){header img{height:30px;min-width:30px;width:30px}}@media all and (max-width:900px){.successlist div{width:calc(50% - 90px)!important}}@media all and (max-width:830px){header{width:90vw;padding-left:5vw!important;padding-right:5vw!important}}@media all and (max-width:700px){header{width:calc(100vw - 20px);padding-left:10px!important;padding-right:10px!important;margin-bottom:2vh}}@media all and (max-width:660px){header a.headerbutton{padding:5px 10px;font-size:14px}.homepagebuttons{flex-direction:column}.homepagebuttons a{margin-left:10%!important;margin-right:10%!important;margin-top:30px;padding:10px 0!important;width:80%}.homepagebuttons a:nth-child(1){margin-top:0}.homepagebigtext{margin-bottom:30px!important}.videoframe{margin-top:-50px!important;margin-bottom:-50px!important}header a.hideoverflow{display:none}}@media all and (max-width:500px){.successlist div{width:calc(100% - 90px)!important}}@media all and (max-width:450px){.homepagebigtext{font-size:1.2em!important}header a.headerbutton{padding:5px 10px;font-size:14px}.videoframe{margin-top:-120px!important;margin-bottom:-80px!important}header div{display:none}header div.small{display:flex}header{justify-content:space-between}}@media all and (max-width:400px){.homepagebuttons{max-width:95vw!important}}@media all and (max-width:350px){header div{display:none}header{justify-content:space-between}.featurecontainer>div>img{width:30px!important}}
+@media all and (max-width:1285px){header{width:80vw;padding-left:10vw!important;padding-right:10vw!important}}
+
+@media all and (max-width:970px){header img{height:30px;min-width:30px;width:30px}}
+
+@media all and (max-width:900px){.successlist div{width:calc(50% - 90px)!important}}
+
+@media all and (max-width:830px){header{width:90vw;padding-left:5vw!important;padding-right:5vw!important}}
+
+@media all and (max-width:700px){header{width:calc(100vw - 20px);padding-left:10px!important;padding-right:10px!important;margin-bottom:2vh}}
+
+@media all and (max-width:660px){header a.headerbutton{padding:5px 10px;font-size:14px}.homepagebuttons{flex-direction:column}.homepagebuttons a{margin-left:10%!important;margin-right:10%!important;margin-top:30px;padding:10px 0!important;width:80%}.homepagebuttons a:nth-child(1){margin-top:0}.homepagebigtext{margin-bottom:30px!important}.videoframe{margin-top:-50px!important;margin-bottom:-50px!important}header a.hideoverflow{display:none}}
+
+@media all and (max-width:500px){.successlist div{width:calc(100% - 90px)!important}}
+
+@media all and (max-width:450px){.homepagebigtext{font-size:1.2em!important}header a.headerbutton{padding:5px 10px;font-size:14px}.videoframe{margin-top:-120px!important;margin-bottom:-80px!important}header div{display:none}header div.small{display:flex}header{justify-content:space-between}}
+
+@media all and (max-width:400px){.homepagebuttons{max-width:95vw!important}}
+
+@media all and (max-width:350px){header div{display:none}header{justify-content:space-between}.featurecontainer>div>img{width:30px!important}}
