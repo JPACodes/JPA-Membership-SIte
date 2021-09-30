@@ -38,10 +38,3 @@ header div a::after{opacity:0;content:"";width:75%;position:absolute;bottom:-3px
 header div a:hover::after,header div a.selected::after{opacity:1}header a.headerbutton,.subscribebutton{color:#3419bd;border:1px solid #3419bd;padding:10px 20px;border-radius:20px;transition-duration:.4s;background:0 0;cursor:pointer}header a.headerbutton:hover,.subscribebutton:hover{color:#372f40}
 header img{height:45px;width:45px}header.footer{background:#372f40;padding:0 20vw 1%}header span{display:flex}header span a{display:flex;padding:0 5px;transition:transform .4s}header span a:hover{transform:scale(1.1)}header.footer *{color:#ddd!important}.footertransition{height:20px;width:100%;background:linear-gradient(0deg,#592F60 0%,#231B2B 100%)}
 .content{flex-grow:1;flex-shrink:1;width:100%;left:0}input{background:#372f40;font-size:1em;padding:10px 20px;width:80%;border-radius:21px;text-align:left;transition:filter .4s}input:focus{filter:brightness(80%)}input::placeholder{color:#bbb}
-
-.successtop{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
