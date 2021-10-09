@@ -52,6 +52,11 @@
 .contact{margin-top:40px;margin-bottom:40px}
 header{padding-bottom:0!important;margin-bottom:-10px}
 .brands img{height:2em}
+.successimage{
+    width: 100%;
+}
+.successimage .img{
+    max-width: 100%; }
 .success{margin-bottom:50px}.faq .homepagetitletext{margin-bottom:40px}.faq .homepageicon{margin-bottom:10px}}
 @media only screen and (max-width:550px){.successtop{text-align:center;height:350px}}
 @media only screen and (max-width:450px){.successtop{text-align:center;height:250px}.popup{height:500px}}
