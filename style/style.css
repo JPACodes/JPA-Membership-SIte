@@ -5,17 +5,13 @@
     user-select:none;
     text-align:center;
     scroll-behavior:smooth;
-    font-family:serif;
     outline:none;
-    color:#ddd;
+    color:#8CC4C4;
     text-decoration:none;
-    font-family:spock,serif;
+    font-family:spock;
+    font-weight: 100;
     
   }
-  @font-face {
-    font-family: 'spock'; /*a name to be used later*/
-    src: url('.../fonts/spockpro-thin-webfont.woff2'); /*URL to font*/
-}
 header .onlyScroll{display:none}
 header.scrolling .headerbutton{display:none}header.scrolling .onlyScroll{display:block}
 body{overflow-x:hidden;max-width:100%;position:relative;background:#592F60;display:flex;flex-direction:column;
@@ -44,3 +40,9 @@ header div a:hover::after,header div a.selected::after{opacity:1}header a.header
 header img{height:45px;width:45px}header.footer{background:#372f40;padding:0 20vw 1%}header span{display:flex}header span a{display:flex;padding:0 5px;transition:transform .4s}header span a:hover{transform:scale(1.1)}header.footer *{color:#ddd!important}.footertransition{height:20px;width:100%;background:linear-gradient(0deg,#592F60 0%,#231B2B 100%)}
 .content{flex-grow:1;flex-shrink:1;width:100%;left:0}input{background:#372f40;font-size:1em;padding:10px 20px;width:80%;border-radius:21px;text-align:left;transition:filter .4s}input:focus{filter:brightness(80%)}input::placeholder{color:#bbb}
 
+@font-face {
+  font-family: 'spock'; /*a name to be used later*/
+  src: url("../fonts/SpockEss-RegularItalic.otf"); /*URL to font*/
+  font-style: normal;
+  font-weight: 100;
+}
