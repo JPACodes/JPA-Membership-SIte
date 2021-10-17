@@ -6,7 +6,7 @@
     text-align:center;
     scroll-behavior:smooth;
     outline:none;
-    color:#8CC4C4;
+    color:#48a0bd;
     text-decoration:none;
     font-family:spock;
     font-weight: 100;
@@ -14,15 +14,116 @@
   }
 header .onlyScroll{display:none}
 header.scrolling .headerbutton{display:none}header.scrolling .onlyScroll{display:block}
-body{overflow-x:hidden;max-width:100%;position:relative;background:#592F60;display:flex;flex-direction:column;
-    display:flex;
-    flex-direction:column;
-    min-height:100vh;
-    background-color: rgb(16, 30, 34);
-    background-image:linear-gradient(
+body{
+  overflow-x:hidden;
+  background-color: rgb(255, 255, 255);
+  max-width:100%;
+  position:relative;
+  display:flex;
+  flex-direction:column;
+  display:flex;
+  flex-direction:column;
+  min-height:100vh;
+  height: 100vh;
+  /**background-color: rgb(16, 30, 34);
+  background-image:linear-gradient(
         to top right, 
         rgb(8, 10, 12), #22242c
-      );
+      );**/
+}
+.space {
+  background: rgba(128, 0, 128, 0.1) center / 200px 200px round;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.stars1{
+  background-image: 
+    radial-gradient(
+      2px 2px at 25px 5px,
+      #4D3A81,
+      rgba(255, 255, 255, 0)
+    ),
+    radial-gradient(
+      2px 2px at 50px 25px,
+      #4D3A81,
+      rgba(255, 255, 255, 0)
+    ),
+    radial-gradient(
+      2px 2px at 125px 20px,
+      #4D3A81,
+      rgba(255, 255, 255, 0)
+    ),
+    radial-gradient(
+      3.5px 3.5px at 50px 75px,
+      #4D3A81,
+      rgba(255, 255, 255, 0)
+    ),
+    radial-gradient(
+      4px 4px at 15px 125px,
+      #4D3A81,
+      rgba(255, 255, 255, 0)
+    );
+}
+
+.stars2{
+  background-image: 
+    radial-gradient(
+      1px 1px at 75px 125x,
+      white,
+      rgba(255, 255, 255, 0)
+    ),
+    radial-gradient(
+      1px 1px at 100px 75px,
+      white,
+      rgba(255, 255, 255, 0)
+    ),
+    radial-gradient(
+      1.5px 1.5px at 199px 100px,
+      white,
+      rgba(255, 255, 255, 0)
+    ),
+    radial-gradient(
+      2px 2px at 20px 50px,
+      white,
+      rgba(255, 255, 255, 0)
+    ),
+    radial-gradient(
+      2.5px 2.5px at 100px 5px,
+      white,
+      rgba(255, 255, 255, 0)
+    );
+}
+.stars3{
+  background-image: 
+    radial-gradient(
+      1px 1px at 10px 10x,
+      white,
+      rgba(255, 255, 255, 0)
+    ),
+    radial-gradient(
+      1px 1px at 150px 150px,
+      white,
+      rgba(255, 255, 255, 0)
+    ),
+    radial-gradient(
+      1.5px 1.5px at 60px 170px,
+      white,
+      rgba(255, 255, 255, 0)
+    ),
+    radial-gradient(
+      1.5px 1.5px at 175px 180px,
+      white,
+      rgba(255, 255, 255, 0)
+    ),
+    radial-gradient(
+      2px 2px at 195px 95px,
+      white,
+      rgba(255, 255, 255, 0)
+    );
 }
 button:disabled{cursor:not-allowed!important}
 .hidden{display:none!important}
@@ -30,14 +131,27 @@ button:disabled{cursor:not-allowed!important}
 ::-webkit-scrollbar-track{background:0 0}
 ::-webkit-scrollbar-thumb{background:#444;border-radius:3px}::-webkit-scrollbar-thumb:hover{background:#555}
 header{display:flex;justify-content:space-around;padding:10px 20vw 0;height:60px;align-items:center;padding-bottom:5vh;width:60vw;text-transform:uppercase}
-header.header{margin-bottom:4vh;position:sticky;top:0;background:#231b2b;padding-bottom:1vh;z-index:900}
+header.header{
+  margin-bottom:4vh;
+  position:sticky;
+  top:0;background:#231b2b;
+  padding-bottom:1vh;
+  z-index:900;
+}
+.faqquestions span.questiontext{
+  color: #48a0bd;
+}
+.bigtext {
+  position: relative;
+  margin-top: 150px;
+}
 header>div{display:flex;justify-content:space-around;flex-wrap:wrap;flex-grow:1;flex-shrink:1}
 header>div.small{display:none}
-header div a{color:#84719a;font-weight:700;transition:color .4s;position:relative}
+header div a{color:whitesmoke;font-weight:700;transition:color .4s;position:relative}
 header div a:hover{color:#c8ace7}
-header div a::after{opacity:0;content:"";width:75%;position:absolute;bottom:-3px;height:0;left:50%;border-bottom:2px solid #3419bd;transition:width .3s ease;transform:translateX(-50%);transition:opacity .4s ease}
-header div a:hover::after,header div a.selected::after{opacity:1}header a.headerbutton,.subscribebutton{color:#8CC4C4;border:1px solid #8CC4C4;padding:10px 20px;border-radius:20px;transition-duration:.4s;background:0 0;cursor:pointer}header a.headerbutton:hover,.subscribebutton:hover{color:white}
-header img{height:45px;width:45px}header.footer{background:#372f40;padding:0 20vw 1%}header span{display:flex}header span a{display:flex;padding:0 5px;transition:transform .4s}header span a:hover{transform:scale(1.1)}header.footer *{color:#ddd!important}.footertransition{height:20px;width:100%;background:linear-gradient(0deg,#592F60 0%,#231B2B 100%)}
+header div a::after{opacity:0;content:"";width:75%;position:absolute;bottom:-3px;height:0;left:50%;border-bottom:2px solid #48a0bd;transition:width .3s ease;transform:translateX(-50%);transition:opacity .4s ease}
+header div a:hover::after,header div a.selected::after{opacity:1}header a.headerbutton,.subscribebutton{color:#48a0bd;border:1px solid ;padding:10px 20px;border-radius:20px;transition-duration:.4s;background:0 0;cursor:pointer}header a.headerbutton:hover,.subscribebutton:hover{color:white}
+header img{height:45px;width:45px}header.footer{background:#372f40;padding:2vw 20vw 1%}header span{display:flex}header span a{display:flex;padding:0 5px;transition:transform .4s}header span a:hover{transform:scale(1.1)}header.footer *{color:#ddd!important}.footertransition{height:20px;width:100%;background:linear-gradient(0deg,#592F60 0%,#231B2B 100%)}
 .content{flex-grow:1;flex-shrink:1;width:100%;left:0}input{background:#372f40;font-size:1em;padding:10px 20px;width:80%;border-radius:21px;text-align:left;transition:filter .4s}input:focus{filter:brightness(80%)}input::placeholder{color:#bbb}
 
 @font-face {
@@ -45,4 +159,19 @@ header img{height:45px;width:45px}header.footer{background:#372f40;padding:0 20v
   src: url("../fonts/SpockEss-RegularItalic.otf"); /*URL to font*/
   font-style: normal;
   font-weight: 100;
+}
+
+@keyframes space {
+  40% {
+    opacity: .75;
+  }
+  50% {
+    opacity: .25;
+  }
+  60% {
+    opacity: .75;
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
